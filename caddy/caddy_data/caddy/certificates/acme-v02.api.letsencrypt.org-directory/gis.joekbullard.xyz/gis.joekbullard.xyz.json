@@ -1,0 +1,8 @@
+{
+	"sans": [
+		"gis.joekbullard.xyz"
+	],
+	"issuer_data": {
+		"url": "https://acme-v02.api.letsencrypt.org/acme/cert/04437787679f155b1fce09fdc82cd63e68ed"
+	}
+}

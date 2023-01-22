@@ -1,0 +1,14 @@
+{
+	"status": "valid",
+	"contact": [
+		"mailto:joekbullard@gmail.com"
+	],
+	"termsOfServiceAgreed": true,
+	"externalAccountBinding": {
+		"protected": "eyJhbGciOiJIUzI1NiIsImtpZCI6ImFvd1VDeEl3TDFfRl9DQWpwV1lyVnciLCJ1cmwiOiJodHRwczovL2FjbWUuemVyb3NzbC5jb20vdjIvRFY5MC9uZXdBY2NvdW50In0",
+		"payload": "eyJjcnYiOiJQLTI1NiIsImt0eSI6IkVDIiwieCI6IlgtM1doZnZNTndLYnhYVzh1cEZLeEhad1NrYlU3SjBybkRVQjJidV9BVHMiLCJ5IjoiV2ljTThmN2FjclhzZXRPV00tb2NBUkg4SXdpek9HR0NELVpnZGx0U1V4ayJ9",
+		"signature": "ncA9LM7t8R7MmcrVaj3pS-8xtj8n3SNUREnbxPUGwlE"
+	},
+	"orders": "https://acme.zerossl.com/v2/DV90/account/aowUCxIwL1_F_CAjpWYrVw/orders",
+	"location": "https://acme.zerossl.com/v2/DV90/account/aowUCxIwL1_F_CAjpWYrVw"
+}
