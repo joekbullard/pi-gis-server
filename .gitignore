@@ -4,3 +4,4 @@
 ./caddy/caddy_data/
 ./caddy/site/
 *.key
+caddy/caddy_data/caddy/cerficiates/acme-v02.api.letsencrypt.org-directory/gis.joekbullard.xyz/gis.joekbullard.xyz.key
