@@ -9,6 +9,7 @@ services:
   gis_server: 
     image: pramsey/pg_featureserv:20230121
     container_name: gis_server
+    restart: unless-stopped
     expose:
       - "9000"
     environment:
@@ -31,6 +32,7 @@ services:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASS=${POSTGRES_PASSWORD}
       - ALLOW_IP_RANGE=0.0.0.0/0
+    restart: unless-stopped
     volumes:
       - ./data/db:/var/lib/postgresql/data
       - ./bristol_green_space.sql:/docker-entrypoint-initdb.d/bristol_green_space.sql
@@ -49,7 +51,7 @@ services:
     restart: unless-stopped
     container_name: caddy
     depends_on:
-     - gis_server
+      - gis_server
     ports:
       - 80:80
       - 443:443
